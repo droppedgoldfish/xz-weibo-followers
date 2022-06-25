@@ -4,12 +4,12 @@ import json
 from datetime import date
 from github import Github
 
-from config import get_github_access_token
+github_access_token = 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
 
 REPO_NAME = 'xz-weibo-followers'
 
 
-github = Github(get_github_access_token())
+github = Github(github_access_token)
 
 def get_repos():
     for repo in github.get_user().get_repos():
