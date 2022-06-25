@@ -4,7 +4,7 @@ import json
 from datetime import date
 from github import Github
 
-github_access_token = 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
+github_access_token = "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"
 
 REPO_NAME = 'xz-weibo-followers'
 
