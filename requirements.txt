@@ -1,6 +1,4 @@
 pandas
 matplotlib
 requests
-github
-config
-
+PyGithub===1.55
