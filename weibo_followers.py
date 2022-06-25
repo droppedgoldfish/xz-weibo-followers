@@ -19,7 +19,7 @@ except Exception:
 today = date.today()
 day = today.strftime("%Y-%m-%d")
 
-g = open("/Users/vivzhong/xz-weibo-followers/xz_weibo_followers.txt", "a")
+g = open("xz_weibo_followers.txt", "a")
 g.write(day+","+followers+"\n")
 g.close()
 
