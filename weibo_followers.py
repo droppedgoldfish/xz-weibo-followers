@@ -66,9 +66,12 @@ today = date.today()
 day = today.strftime("%Y-%m-%d")
 
 
-with open("xz_weibo_followers.txt", "a") as g:
-    g.write(day+","+followers+"\n")
-    content = g.read()
+g = open("xz_weibo_followers.txt", "a")
+g.write(day+","+followers+"\n")
+g.close()
+
+with open("xz_weibo_followers.txt", "r") as f:
+    content = f.read()
 
 put_file("xz_weibo_followers.txt", content)
 
