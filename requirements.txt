@@ -1,4 +1,6 @@
 pandas
 matplotlib
 requests
+github
+config
 
