@@ -65,7 +65,6 @@ except Exception:
 today = date.today()
 day = today.strftime("%Y-%m-%d")
 
-
 g = open("xz_weibo_followers.txt", "a")
 g.write(day+","+followers+"\n")
 g.close()
