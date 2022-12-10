@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-cd ~/Users/vivzhong/xz-weibo-followers
+#cd ~/Users/vivzhong/xz-weibo-followers
 git add .
 git commit -m "update"
 git push
